@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
@@ -22,8 +22,9 @@ requirements:
     - python >=3.6
     - bluesky >=1.5.0
     - cf-units >=2.0.2
-    - happi
     - ophyd >=1.4.0
+    - matplotlib
+    - periodictable
     - pyepics
     - pyyaml
     - scipy
@@ -45,3 +46,4 @@ extra:
   recipe-maintainers:
     - klauer
     - hhslepicka
+    - zllentz
