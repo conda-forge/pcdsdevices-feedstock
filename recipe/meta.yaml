@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 2
+  number: 3
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
@@ -22,7 +22,7 @@ requirements:
     - python >=3.6
     - bluesky >=1.5.0
     - cf-units >=2.0.2
-    - matplotlib
+    - matplotlib-base
     - ophyd >=1.4.0
     - periodictable
     - pyepics
