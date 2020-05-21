@@ -1,5 +1,5 @@
 {% set name = "pcdsdevices" %}
-{% set version = "2.5.0" %}
+{% set version = "2.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/pcdshub/pcdsdevices/archive/v{{ version }}.tar.gz
-  sha256: 87603cd0bdd962bfe854511994859aa5e586de6386512ae7e7e9248b5cc4b943
+  sha256: c95ee9e49ab933a8b2862660d451751578a94b8aae1130668f9ad4355c57839c
 
 build:
   noarch: python
@@ -22,8 +22,9 @@ requirements:
     - python >=3.6
     - bluesky >=1.5.0
     - cf-units >=2.0.2
+    - happi
     - matplotlib-base
-    - ophyd >=1.4.0
+    - ophyd >=1.5.0
     - periodictable
     - pyepics
     - pytmc >=2.6.0
