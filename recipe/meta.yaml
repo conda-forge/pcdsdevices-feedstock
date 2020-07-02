@@ -29,6 +29,7 @@ requirements:
     - pyepics
     - pytmc >=2.6.0
     - pyyaml
+    - schema
     - scipy
 
 test:
