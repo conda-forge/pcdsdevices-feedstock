@@ -21,11 +21,11 @@ requirements:
   run:
     - python >=3.6
     - bluesky >=1.5.0
-    - cf-units >=2.0.2
     - happi
     - matplotlib-base
-    - ophyd >=1.5.0
+    - ophyd >=1.5.1
     - periodictable
+    - pint
     - pyepics
     - pytmc >=2.6.0
     - pyyaml
