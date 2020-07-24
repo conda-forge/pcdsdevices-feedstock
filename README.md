@@ -5,7 +5,7 @@ Home: https://github.com/pcdshub/pcdsdevices
 
 Package license: LicenseRef-BSD-3-Clause-SLAC
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Collection of Ophyd device subclasses for IOCs unique to the Linac Coherent Light Source (LCLS) at SLAC
 
