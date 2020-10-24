@@ -23,7 +23,9 @@ requirements:
     - bluesky >=1.5.0
     - happi
     - matplotlib-base
+    - numpy
     - ophyd >=1.5.1
+    - pcdsutils >=1.4.0
     - periodictable
     - pint
     - pyepics
