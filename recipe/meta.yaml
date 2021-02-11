@@ -1,5 +1,5 @@
 {% set name = "pcdsdevices" %}
-{% set version = "4.0.0" %}
+{% set version = "4.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/pcdshub/pcdsdevices/archive/v{{ version }}.tar.gz
-  sha256: 482a590f7a172882d028fea2c8a07255e2e7975de31036c5b8f62b5cdeef7eb4
+  sha256: 95b9c98683d15d1b39f1fe02f6d97e66ae52c7ccf683c19c7a73743f8eabfabb
 
 build:
   noarch: python
@@ -22,6 +22,7 @@ requirements:
     - python >=3.6
     - bluesky >=1.5.0
     - happi
+    - jsonschema
     - matplotlib-base
     - numpy
     - ophyd >=1.5.1
