@@ -1,5 +1,5 @@
 {% set name = "pcdsdevices" %}
-{% set version = "4.5.0" %}
+{% set version = "4.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/pcdshub/pcdsdevices/archive/v{{ version }}.tar.gz
-  sha256: ac74d1833673091e8d6a06dd81dc9de53b1c73d9120519c0ef7ababffec8252b
+  sha256: 223c090815928adcfac26000185c55447103cb8a8621dfdd80f8d16c31be4b46
 
 build:
   noarch: python
