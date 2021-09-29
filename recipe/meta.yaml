@@ -29,13 +29,14 @@ requirements:
     - pcdscalc >=0.2.0
     - pcdsutils >=0.4.0
     - pint
-    - pmgr >=2.0.2
     - prettytable
     - pyepics
     - pytmc >=2.6.0
     - pyyaml
     - schema
     - scipy
+  run_constrained:
+    - pmgr >=2.0.2
 
 test:
   imports:
