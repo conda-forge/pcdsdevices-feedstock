@@ -1,5 +1,5 @@
 {% set name = "pcdsdevices" %}
-{% set version = "4.7.1" %}
+{% set version = "4.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/pcdshub/pcdsdevices/archive/v{{ version }}.tar.gz
-  sha256: 6d2267837326079bf76084c0e8cfba5c69e085ee3e0405d5ea9558bbba5bf0eb
+  sha256: 0e26ed394ff1c62fca61d558bccd131aed52ebcd2d04556da5f431644a2f9b1c
 
 build:
   noarch: python
@@ -29,13 +29,14 @@ requirements:
     - pcdscalc >=0.2.0
     - pcdsutils >=0.4.0
     - pint
-    - pmgr >=2.0.2
     - prettytable
     - pyepics
     - pytmc >=2.6.0
     - pyyaml
     - schema
     - scipy
+  run_constrained:
+    - pmgr >=2.0.2
 
 test:
   imports:
