@@ -16,11 +16,11 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.9
     - pip
   run:
-    - python >=3.6
-    - bluesky >=1.5.0
+    - python >=3.9
+    - bluesky >=1.6.4
     - happi
     - jsonschema
     - matplotlib-base
@@ -30,12 +30,13 @@ requirements:
     - pcdsutils >=0.4.0
     - pint
     - prettytable
-    - pyepics
-    - pytmc >=2.6.0
+    - pyepics >=3.4.2
+    - pytmc >=2.7.0
     - pyyaml
     - schema
     - scipy
   run_constrained:
+    - lightpath >=1.0.0
     - pmgr >=2.0.2
 
 test:
