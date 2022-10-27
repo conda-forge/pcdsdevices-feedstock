@@ -26,12 +26,12 @@ requirements:
     - matplotlib-base
     - numpy
     - ophyd >=1.5.1
-    - pcdscalc >=0.2.0
-    - pcdsutils >=0.4.0
+    - pcdscalc >=0.3.3
+    - pcdsutils >=0.11.0
     - pint
     - prettytable
     - pyepics >=3.4.2
-    - pytmc >=2.7.0
+    - pytmc >=2.14.0
     - pyyaml
     - schema
     - scipy
