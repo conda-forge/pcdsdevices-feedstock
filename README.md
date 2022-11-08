@@ -148,6 +148,6 @@ Feedstock Maintainers
 =====================
 
 * [@klauer](https://github.com/klauer/)
+* [@tangkong](https://github.com/tangkong/)
 * [@zllentz](https://github.com/zllentz/)
-* [@zrylettc](https://github.com/zrylettc/)
 
