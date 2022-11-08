@@ -38,6 +38,7 @@ requirements:
   run_constrained:
     - lightpath >=1.0.0
     - pmgr >=2.0.2
+    - typhos >=2.4.0
 
 test:
   imports:
