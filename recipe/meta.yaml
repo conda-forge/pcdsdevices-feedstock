@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -23,6 +23,7 @@ requirements:
     - bluesky >=1.6.4
     - happi
     - jsonschema
+    - lightpath >=1.0.0
     - matplotlib-base
     - numpy
     - ophyd >=1.5.1
@@ -36,7 +37,6 @@ requirements:
     - schema
     - scipy
   run_constrained:
-    - lightpath >=1.0.0
     - pmgr >=2.0.2
     - typhos >=2.4.0
 
