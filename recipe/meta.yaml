@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://github.com/pcdshub/pcdsdevices/archive/v{{ version }}.tar.gz
-  sha256: 7937ddc05665df4e52d60bb39f0f8b1edf0fff7455efd89d156d4de5b43b25d2
+  sha256: caa3dfe32a2b3c60c4f5526f9a7692ae93ac8c950a8b5602741d245f20ddc4a6
 
 build:
   noarch: python
-  number: 1
+  number: 2
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
