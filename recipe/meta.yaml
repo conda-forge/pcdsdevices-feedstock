@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://github.com/pcdshub/pcdsdevices/archive/v{{ version }}.tar.gz
-  sha256: 3f0f4b02ce7a9c44c663c7dc221e769d391ef7a366cf811356f4e5e37a9cf4ae
+  sha256: 4768059d341e849e0cad0ff0380fb38a4f057d914d4d820afdea679b8e6086e2
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -21,7 +21,7 @@ requirements:
     - setuptools_scm
   run:
     - python >=3.9
-    - bluesky >=1.6.4
+    - bluesky-base >=1.6.4
     - happi
     - jsonschema
     - lightpath >=1.0.0
