@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -21,7 +21,7 @@ requirements:
     - setuptools_scm
   run:
     - python >=3.9
-    - bluesky >=1.6.4
+    - bluesky-base >=1.6.4
     - happi
     - jsonschema
     - lightpath >=1.0.0
