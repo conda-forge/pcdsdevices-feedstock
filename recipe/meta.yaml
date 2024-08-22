@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/pcdshub/pcdsdevices/archive/v{{ version }}.tar.gz
-  sha256: 3f0f4b02ce7a9c44c663c7dc221e769d391ef7a366cf811356f4e5e37a9cf4ae
+  sha256: 4768059d341e849e0cad0ff0380fb38a4f057d914d4d820afdea679b8e6086e2
 
 build:
   noarch: python
