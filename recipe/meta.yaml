@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://github.com/pcdshub/pcdsdevices/archive/v{{ version }}.tar.gz
-  sha256: 6df4625ee842279b2ed881282cd1b9189c650ea24f3d61a50b12492435aad47d
+  sha256: f01713f880160374382fe1d91b925350728dcc6cc3f716a907fa61ac5522558a
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -25,19 +25,19 @@ requirements:
     - bluesky-base >=1.6.4
     - happi
     - jsonschema
-    - lightpath >=1.0.0
+    - lightpath-base >=1.0.5
     - matplotlib-base
     - numpy
-    - ophyd >=1.5.1
+    - ophyd >=1.7.0
     - pcdscalc >=0.3.3
     - pcdsutils >=0.11.0
-    - pint
     - prettytable
     - pyepics >=3.4.2
     - pytmc >=2.14.0
     - pyyaml
     - schema
     - scipy
+    - sympy
   run_constrained:
     - pmgr >=2.0.2
     - typhos >=2.4.0
