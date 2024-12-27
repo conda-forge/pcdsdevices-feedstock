@@ -1,5 +1,6 @@
 {% set name = "pcdsdevices" %}
 {% set version = "8.7.0" %}
+{% set python_min = "3.9" %}
 
 package:
   name: {{ name|lower }}
@@ -16,12 +17,12 @@ build:
 
 requirements:
   host:
-    - python >=3.9
+    - python >={{ python_min }}
     - pip
     - setuptools
     - setuptools_scm
   run:
-    - python >=3.9
+    - python >={{ python_min }}
     - bluesky-base >=1.6.4
     - happi
     - jsonschema
@@ -45,6 +46,8 @@ requirements:
 test:
   imports:
     - pcdsdevices
+  requires:
+    - python {{ python_min }}
 
 about:
   home: https://github.com/pcdshub/pcdsdevices
