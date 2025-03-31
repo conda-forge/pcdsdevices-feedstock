@@ -1,5 +1,5 @@
 {% set name = "pcdsdevices" %}
-{% set version = "8.7.0" %}
+{% set version = "8.8.0" %}
 {% set python_min = "3.9" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/pcdshub/pcdsdevices/archive/v{{ version }}.tar.gz
-  sha256: 0b1e7f65820185ebc9e750437293ae68bbf0cbe51e4d62ebae95fbeb72f27457
+  sha256: bbadb20e638bbebe37e2e3fae6cbd3ad9046b98e129d6cd2220251c5a0375710
 
 build:
   noarch: python
@@ -17,7 +17,7 @@ build:
 
 requirements:
   host:
-    - python >={{ python_min }}
+    - python {{ python_min }}
     - pip
     - setuptools
     - setuptools_scm
