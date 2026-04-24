@@ -8,11 +8,11 @@ package:
 
 source:
   url: https://github.com/pcdshub/pcdsdevices/archive/v{{ version }}.tar.gz
-  sha256: d105057b3e83f57c6f958d94ee41254906a1b011494004e6d699702c3eb6b959
+  sha256: 30c6b52ae91ae51c9f7fd6fa3e48de50d4f2adb1f2b561418089ca3dd1c77b07
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -60,5 +60,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - tangkong
     - zllentz
