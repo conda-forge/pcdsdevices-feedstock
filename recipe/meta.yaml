@@ -6,8 +6,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/pcdshub/pcdsdevices/archive/v{{ version }}.tar.gz
-  sha256: 74f4f49cfe1dfaea2c43f5c16670805ae6cc5fbb500cf8ba7b01f8e09cbd9318
+  url: https://pypi.org/packages/source/p/pcdsdevices/pcdsdevices-{{ version }}.tar.gz
+  sha256: f0fa74c6032e67427918e3a6fa1c949aa277d4d70f123a527610e2afc41e79b4
 
 build:
   noarch: python
