@@ -1,13 +1,13 @@
 {% set name = "pcdsdevices" %}
-{% set version = "10.7.0" %}
+{% set version = "10.8.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/p/pcdsdevices/pcdsdevices-{{ version }}.tar.gz
-  sha256: f0fa74c6032e67427918e3a6fa1c949aa277d4d70f123a527610e2afc41e79b4
+  url: https://files.pythonhosted.org/packages/source/p/pcdsdevices/pcdsdevices-{{ version }}.tar.gz
+  sha256: 68457da497df5dcefff7063865be4f4a040008aac586c863ac981cfdde955f94
 
 build:
   noarch: python
